@@ -249,9 +249,6 @@ function initiateGame() {
         spelPlan[i].style.backgroundColor = "white"; //Tog denna rad från CHAT-GPT, den ändrar bakgrundsfärgen till vit
     }
 
-    let playerChar; //Lokala variabler inuti initiateGame();
-    let playerName;
-
     let slumpTal = Math.random() //Slumpar ett tal mellan 0 och 1
     if(slumpTal < .5){ //Om det är mindre än 0.5 så tilldelas playerChar till playerOne och playerName till namnet
         playerChar = oGameData.playerOne;
